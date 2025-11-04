@@ -1,0 +1,34 @@
+.slider-container {
+    width: 100%;
+    white-space: nowrap;
+}
+
+.slider-track {
+    display: flex;
+    animation: scroll 15s linear infinite;
+}
+
+.slide {
+    flex: 0 0 auto;
+    width: 200px;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.slide img {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Keyframes for continuous scrolling */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
