@@ -1,6 +1,6 @@
 import React from "react";
 import img1 from "../assets/img1.jpg";
-import "../components/slider.css"; // we’ll add animation here
+import "./slider.css"; // we’ll add animation here
 // make sure to create this file
 
 const Slider = () => {
