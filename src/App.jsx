@@ -3,10 +3,12 @@ import Slider from "./pages/Slider";
 import Carousel from "./pages/Carousel";
 import Gsap from "./pages/Gsap";
 import GsapImages from "./pages/GsapImages";
+import Loader from "./pages/Loader";
 
 const App = () => {
   return (
     <div>
+      <Loader />
       <Slider />
       <br></br>
       <br></br>
