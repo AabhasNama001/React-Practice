@@ -5,6 +5,7 @@ import Gsap from "./pages/Gsap";
 import GsapImages from "./pages/GsapImages";
 import Loader from "./pages/Loader";
 import TiltCard from "./pages/TiltCard";
+import About from "./pages/About";
 
 const App = () => {
   return (
@@ -26,19 +27,20 @@ const App = () => {
       <br></br>
       <br></br>
       <TiltCard />
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <About />
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <GsapImages />
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
     </div>
   );
 };
