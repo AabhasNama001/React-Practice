@@ -6,11 +6,17 @@ import GsapImages from "./pages/GsapImages";
 import Loader from "./pages/Loader";
 import TiltCard from "./pages/TiltCard";
 import About from "./pages/About";
+import Navbar from "./pages/Navbar";
 
 const App = () => {
   return (
     <div>
       <Loader />
+      <Navbar />
+      <br/>
+      <br/>
+      <br/>
+      <br/>
       <Slider />
       <br></br>
       <br></br>
